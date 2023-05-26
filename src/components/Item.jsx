@@ -40,7 +40,7 @@ const Item = ({ item, width }) => {
           height="400px"
           src={`${process.env.REACT_APP_STRAPI_LINK}${url}`}
           onClick={() => navigate(`/item/${item.id}`)}
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer", objectFit: 'cover' }}
         />
         <Box
           display={isHovered ? "block" : "none"}
