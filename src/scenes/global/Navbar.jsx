@@ -50,10 +50,12 @@ function Navbar() {
         >
           {/* <IconButton sx={{ color: "black" }}>
             <SearchOutlined />
-          </IconButton>
+          </IconButton> */}
+          
           <IconButton sx={{ color: "black" }}>
             <PersonOutline />
-          </IconButton> */}
+          </IconButton>
+
           <Badge
             badgeContent={cart.length}
             color="secondary"
